@@ -1,0 +1,9 @@
+[project]
+protostar-version = "0.9.1"
+lib-path = "lib"
+
+[contracts]
+kellyPricer = ["src/contracts/price-models/kellyPricer.cairo"]
+
+["protostar.build"]
+cairo-path = ["./lib/cairo_contracts/src"]
